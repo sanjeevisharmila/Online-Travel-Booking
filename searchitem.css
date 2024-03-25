@@ -1,0 +1,90 @@
+.searchitem{
+   border:1px solid lightgrey;
+   padding:10px;
+   border-radius:5px;
+   display: flex;
+   justify-content: space-between;
+   gap:20px;
+   margin-bottom: 20px;
+}
+.siimg{
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+}
+.sidesc{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    flex:2;
+}
+.sititle{
+    font-size:20px;
+    color:#03adfc;
+}
+.sidetails{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidistance{
+    font-size: 12px;
+}
+.sitaxi{
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+    width:max-content;
+    padding:3px;
+    border-radius: 5px;
+}
+.issubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sifeatures{
+    font-size: 12px;
+}
+.sicancel{
+    font-size: 12px;
+    color:#42f557;
+    font-weight: bold;
+}
+.sicancelsubtitile{
+    font-size: 12px;
+    color:#42f557;
+}
+.sirating{
+    display:flex;
+    justify-content: space-between;
+}
+.sirating>span{
+    font-weight: 500;
+}
+.sirating>button {
+    font-weight: 500;
+    background-color: #6342f5;
+    color:white;
+    padding:5px;
+    font-weight: bold;
+    border: none;
+}
+.sidetailtest{
+    text-align: right;
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.siprice{
+    font-size: 24px;
+}
+
+.sicheck{
+    background-color: #03adfc;
+    color: white;
+    font-weight: bold;
+    padding:10px 5px;
+    border: none;
+    cursor: pointer;
+}

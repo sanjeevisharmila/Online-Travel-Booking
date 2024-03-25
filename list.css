@@ -1,0 +1,66 @@
+.listcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.listwrapper{
+    width:100%;
+    max-width:1024px;
+    display: flex;
+    gap:20px;
+}
+.listsearch{
+    background-color: #fcba03;
+    padding:10px;
+    border-radius: 10px;
+    position: sticky;
+    top:10px;
+    height: max-content;
+}
+
+.listtitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.listitem{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  margin-bottom: 10px;
+}
+.listitem>label{
+    font-size: 12px;
+}
+.listitem>input {
+    height: 30px;
+    border:none;
+    padding:5px;
+}
+.listitem>span{
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.listoptionitem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.listoptioninput{
+    width:50px;
+}
+.listsearch>button{
+    padding: 10px;
+    background-color: #03adfc;
+    color:white;
+    border:none;
+    width:100%;
+    font-weight: 500;
+    cursor:pointer;
+}
+.hoteldetailsprice{
+    
+}
